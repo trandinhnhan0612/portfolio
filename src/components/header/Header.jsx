@@ -29,12 +29,12 @@ const Header = () => {
               </li>
               <li>
                 <a className="text-smallTextColor font-[600]" href="#service">
-                  Service
+                  Skills
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[600]" href="#portfolio">
-                  Portfolio
+                <a className="text-smallTextColor font-[600]" href="#project">
+                  Project
                 </a>
               </li>
               <li>

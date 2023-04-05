@@ -4,6 +4,9 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Hero from "./components/main/Hero";
+import Skills from "./components/main/Skills";
+import Project from "./components/main/Project";
+import Contact from "./components/main/Contact";
 
 function App() {
   useEffect(() => {
@@ -14,6 +17,9 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Skills />
+        <Project />
+        <Contact />
       </main>
       <Footer />
     </>

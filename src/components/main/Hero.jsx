@@ -59,7 +59,11 @@ const Hero = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
               aspernatur odio hic quisquam rerum quibusdam animi ab atque.
             </p>
-            <div className="flex items-center gap-7 mt-10">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              className="flex items-center gap-7 mt-10"
+            >
               <span className="text-smallTextColor text-[16px] font-[600]">
                 Follow me:
               </span>
