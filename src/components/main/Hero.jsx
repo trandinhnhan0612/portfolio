@@ -1,6 +1,5 @@
 import React from "react";
 import heroImg from "../../assets/images/hero.svg";
-import CountUp from "react-countup";
 import {
   AiOutlineAppstore,
   AiOutlineMail,
@@ -37,7 +36,7 @@ const Hero = () => {
               className="flex items-center mt-5 gap-5"
             >
               <a href="#contact">
-                <button className="bg-primaryColor text-white font-[500] rounded-lg flex items-center gap-2 py-2 px-2 hover:bg-smallTextColor ease-in duration-600 ">
+                <button className="text-white font-[500] rounded-lg flex items-center gap-2 py-2 px-2 border border-none bg-gradient-to-r from-colorButton1 to-colorButton2 hover:bg-gradient-to-l focus:ring-4 focus:outline-none">
                   <AiOutlineMail /> Hire me
                 </button>
               </a>
@@ -70,7 +69,7 @@ const Hero = () => {
               <span>
                 <a
                   href="#linkedin"
-                  className="text-gray-500 text-[20px] font-[600] hover:text-linkedinColor"
+                  className="text-gray-500 text-[20px] font-[600] hover:text-hoverIconColor"
                 >
                   <AiOutlineLinkedin />
                 </a>
@@ -78,7 +77,7 @@ const Hero = () => {
               <span>
                 <a
                   href="#github"
-                  className="text-gray-500 text-[20px] font-[600] hover:text-githubColor"
+                  className="text-gray-500 text-[20px] font-[600] hover:text-hoverIconColor"
                 >
                   <AiFillGithub />
                 </a>
@@ -86,7 +85,7 @@ const Hero = () => {
               <span>
                 <a
                   href="#facebook"
-                  className="text-gray-500 text-[20px] font-[600] hover:text-facebookColor"
+                  className="text-gray-500 text-[20px] font-[600] hover:text-hoverIconColor"
                 >
                   <AiOutlineFacebook />
                 </a>

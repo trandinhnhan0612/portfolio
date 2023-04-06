@@ -4,12 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryColor: "#8873EF",
-        headingColor: "#081E21",
-        smallTextColor: "#193256",
-        facebookColor: "#3B5998",
-        githubColor: "#171515",
-        linkedinColor: "#0077B5",
+        primaryColor: "#38bdf8",
+        colorButton1: "#1fa2ff",
+        colorButton2: "#12d8fa",
+        headingColor: "#ffffff",
+        smallTextColor: "#ffffff",
+        hoverIconColor: "#0077B5",
       },
     },
   },

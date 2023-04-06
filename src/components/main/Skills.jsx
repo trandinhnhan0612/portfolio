@@ -2,23 +2,16 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="pt-0" id="service">
+    <section className="pt-0" id="skill">
       <div className="container pt-10">
         <div className="p-3">
           <h1
             data-aos="fade-right"
             data-aos-duration="1500"
-            className="text-smallTextColor text-[32px] font-[700]"
+            className="text-smallTextColor text-center tracking-[16px] text-[32px] font-[700]"
           >
-            Skills
+            MY SKILLS
           </h1>
-          <h2
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            className="text-gray-400 text-[32px] font-[700]"
-          >
-            My top skills
-          </h2>
           <div className="mx-auto mt-5 grid grid-cols-2 gap-y-8 max-w-[900px]">
             <div
               data-aos="fade-right"

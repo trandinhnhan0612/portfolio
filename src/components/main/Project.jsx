@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import projects from "../../assets/data/projectData";
 import data from "../../assets/data/projectData";
 import ModalProject from "./ModalProject";
 
@@ -21,8 +20,8 @@ const Project = () => {
     <section id="project">
       <div className="container">
         <div className="mb-7 sm:mb-0">
-          <h3 className="text-headingColor font-[700] text-[32px]">
-            My recent project
+          <h3 className="text-headingColor text-center tracking-[16px] font-[700] text-[32px]">
+            MY RECENT PROJECT
           </h3>
         </div>
         <div className="flex gap-4 items-center mt-8 flex-wrap">
@@ -58,7 +57,7 @@ const Project = () => {
           {nextItems < data.length && data.length > 6 && (
             <button
               onClick={handleLoadMore}
-              className="text-white bg-smallTextColor py-2 px-4 rounded-lg font-[500]"
+              className="text-smallTextColor bg-smallTextColor py-2 px-4 rounded-lg font-[500] border border-none bg-gradient-to-r from-colorButton1 to-colorButton2 hover:bg-gradient-to-l focus:ring-4 focus:outline-none"
             >
               Load more
             </button>
