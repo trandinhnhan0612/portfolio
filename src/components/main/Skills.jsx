@@ -16,7 +16,7 @@ const Skills = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="1800"
-              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-100 cursor-pointer"
+              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-200 hover:bg-opacity-10"
             >
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/frontend.jpeg" alt="" />
@@ -34,7 +34,7 @@ const Skills = () => {
             <div
               data-aos="fade-left"
               data-aos-duration="1800"
-              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-100"
+              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-200 hover:bg-opacity-10"
             >
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/react.png" alt="" />
@@ -49,7 +49,7 @@ const Skills = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="1800"
-              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-100"
+              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-200 hover:bg-opacity-10"
             >
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/jquery.png" alt="" />
@@ -64,7 +64,7 @@ const Skills = () => {
             <div
               data-aos="fade-left"
               data-aos-duration="1800"
-              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-100"
+              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-200 hover:bg-opacity-10"
             >
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/tailwind.png" alt="" />
@@ -79,7 +79,7 @@ const Skills = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="1800"
-              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-100"
+              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-200 hover:bg-opacity-10"
             >
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/bootstrap.png" alt="" />
@@ -94,7 +94,7 @@ const Skills = () => {
             <div
               data-aos="fade-left"
               data-aos-duration="1800"
-              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-100"
+              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-200 hover:bg-opacity-10"
             >
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/material.png" alt="" />
@@ -109,7 +109,7 @@ const Skills = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="1800"
-              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-100"
+              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-200 hover:bg-opacity-10"
             >
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/styledCom.png" alt="" />
@@ -126,7 +126,7 @@ const Skills = () => {
             <div
               data-aos="fade-left"
               data-aos-duration="1800"
-              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-100"
+              className="flex gap-x-3 items-center w-[360px] h-[110px] border border-solid border-gray-300 p-3 rounded-lg hover:bg-gray-200 hover:bg-opacity-10"
             >
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/responsive.png" alt="" />

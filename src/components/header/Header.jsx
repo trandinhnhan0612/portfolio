@@ -50,9 +50,9 @@ const Header = () => {
               {menuLinks.map((item, index) => (
                 <li key={item.title}>
                   <a
-                    className={`text-smallTextColor font-[600] ${
+                    className={`font-[600] ${
                       index === active &&
-                      "border-b-2 text-primaryColor border-primaryColor "
+                      "border-b-2 border-primaryColor text-cyan-500"
                     }`}
                     onClick={() => setActive(index)}
                     href={item.link}

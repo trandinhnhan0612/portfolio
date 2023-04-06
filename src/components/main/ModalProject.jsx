@@ -7,7 +7,7 @@ const ModalProject = ({ closeModal, activeId }) => {
   return (
     <div
       onClick={() => closeModal()}
-      className="w-full h-full fixed top-0 left-0 z-10 bg-headingColor bg-opacity-40"
+      className="w-full h-full fixed top-0 left-0 z-10 bg-gray-200 bg-opacity-20"
     >
       <div className="max-w-[600px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 bg-white rounded-lg p-5">
         <div>
@@ -16,7 +16,7 @@ const ModalProject = ({ closeModal, activeId }) => {
           </figure>
         </div>
         <div>
-          <h2 className="text-headingColor font-[700] text-2xl my-3">
+          <h2 className="text-textModal font-[700] text-2xl my-3">
             {project.title}
           </h2>
           <p className="text-gray-400 font-[500] text-[15px] leading-7">
@@ -24,13 +24,13 @@ const ModalProject = ({ closeModal, activeId }) => {
           </p>
         </div>
         <div className="flex items-center gap-x-3 flex-wrap mt-4">
-          <h4 className="text-smallTextColor font-[600] text-[18px]">
+          <h4 className="text-textModal font-[600] text-[18px]">
             Technologies:
           </h4>
           {project.technologies.map((item, index) => (
             <span
               key={index}
-              className="text-headingColor bg-gray-200 px-3 py-1 text-[14px] rounded-lg"
+              className="text-textModal bg-gray-200 px-3 py-1 text-[14px] rounded-lg"
             >
               {item}
             </span>

@@ -24,7 +24,7 @@ const Hero = () => {
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="text-headingColor font-[700] text-[28px] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
+              className="text-headingColor font-[600] text-[28px] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
             >
               I'm Tran Dinh Nhan <br />
               Frontend Developer
@@ -42,7 +42,7 @@ const Hero = () => {
               </a>
               <a
                 href="#portfolio"
-                className="text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor"
+                className="text-smallTextColor font-[500] text-[16px] border-b border-solid border-smallTextColor"
               >
                 View portfolio
               </a>

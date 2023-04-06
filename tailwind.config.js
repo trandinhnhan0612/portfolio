@@ -10,6 +10,7 @@ export default {
         headingColor: "#ffffff",
         smallTextColor: "#ffffff",
         hoverIconColor: "#0077B5",
+        textModal: "#193256",
       },
     },
   },

@@ -20,7 +20,11 @@ const Project = () => {
     <section id="project">
       <div className="container">
         <div className="mb-7 sm:mb-0">
-          <h3 className="text-headingColor text-center tracking-[16px] font-[700] text-[32px]">
+          <h3
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            className="text-headingColor text-center tracking-[16px] font-[700] text-[32px]"
+          >
             MY RECENT PROJECT
           </h3>
         </div>
@@ -40,11 +44,11 @@ const Project = () => {
                   alt=""
                 />
               </figure>
-              <div className="w-full h-full bg-gray-200 bg-opacity-40 hidden group-hover:block z-[5] absolute top-0 left-0">
+              <div className="w-full h-full bg-gray-200 bg-opacity-20 hidden group-hover:block z-[5] absolute top-0 left-0">
                 <div className="w-full h-full flex items-center justify-center">
                   <button
                     onClick={() => handleShowModal(projects.id)}
-                    className="text-black bg-white hover:bg-smallTextColor hover:text-white py-2 px-4 rounded-lg font-[500] ease-in duration-200"
+                    className="text-textModal bg-white hover:bg-gradient-to-r from-colorButton1 to-colorButton2 hover:text-white py-2 px-4 rounded-lg font-[500] ease-in duration-200"
                   >
                     View Detail
                   </button>
