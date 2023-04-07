@@ -22,10 +22,10 @@ const Project = () => {
         <div className="mb-7 sm:mb-0">
           <h3
             data-aos="fade-down"
-            data-aos-duration="1000"
-            className="text-headingColor text-center tracking-[16px] font-[700] text-[32px]"
+            data-aos-duration="1500"
+            className="text-gray-500 text-center tracking-[20px] font-[700] text-[28px] md:text-[32px]"
           >
-            MY RECENT PROJECT
+            MY PROJECT
           </h3>
         </div>
         <div className="flex gap-4 items-center mt-8 flex-wrap">

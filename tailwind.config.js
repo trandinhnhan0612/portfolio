@@ -11,6 +11,7 @@ export default {
         smallTextColor: "#ffffff",
         hoverIconColor: "#0077B5",
         textModal: "#193256",
+        bodyColor: "#0f172a",
       },
     },
   },

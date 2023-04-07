@@ -1,30 +1,30 @@
 import React from "react";
 import heroImg from "../../assets/images/hero.svg";
 import {
-  AiOutlineAppstore,
   AiOutlineMail,
   AiOutlineLinkedin,
   AiFillGithub,
   AiOutlineFacebook,
 } from "react-icons/ai";
+import { GiStairsGoal } from "react-icons/gi";
 
 const Hero = () => {
   return (
     <section className="pt-0" id="about">
       <div className="container pt-14">
         <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
-          <div className="w-full md:basis-1/2">
+          <div className="w-full md:basis-[60%]">
             <h5
               data-aos="fade-right"
               data-aos-duration="1500"
-              className="text-headingColor font-[600] text-[18px]"
+              className="text-headingColor font-[600] text-[18px] tracking-[3px]"
             >
               Welcome to Portfolio
             </h5>
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="text-headingColor font-[600] text-[28px] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
+              className="text-headingColor tracking-[3px] font-[600] text-[28px] sm:text-[40px] leading-[40px] sm:leading-[46px] mt-5"
             >
               I'm Tran Dinh Nhan <br />
               Frontend Developer
@@ -44,19 +44,45 @@ const Hero = () => {
                 href="#portfolio"
                 className="text-smallTextColor font-[500] text-[16px] border-b border-solid border-smallTextColor"
               >
-                View portfolio
+                About me
               </a>
             </div>
             <p
               data-aos="fade-left"
               data-aos-duration="1500"
-              className="flex gap-2 text-headingColor mt-8 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10"
+              className="flex gap-3 text-headingColor mt-8 font-[300] text-[15px] leading-7 sm:pl-14 sm:pr-10"
             >
               <span className="pt-[7px]">
-                <AiOutlineAppstore />
+                <GiStairsGoal className="text-[24px] text-primaryColor" />
               </span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              aspernatur odio hic quisquam rerum quibusdam animi ab atque.
+              Hello everyone, my name is Tran Dinh Nhan. I graduated from Van
+              Lang University at the end of August 2022 majoring in information
+              technology. So I am looking for a suitable job where I can
+              practice, hone my skills and above all contribute to the place
+              where I work.
+            </p>
+            <p
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              className="flex gap-3 text-headingColor mt-2 font-[300] text-[15px] leading-7 sm:pl-14 sm:pr-10"
+            >
+              <span className="pt-[7px]">
+                <GiStairsGoal className="text-[24px] text-primaryColor" />
+              </span>
+              Short-term goal: I want to learn more experience in the process of
+              working to improve myself, in order to improve and develop front-
+              end programming skills.
+            </p>
+            <p
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              className="flex gap-3 text-headingColor mt-2 font-[300] text-[15px] leading-7 sm:pl-14 sm:pr-10"
+            >
+              <span className="pt-[7px]">
+                <GiStairsGoal className="text-[24px] text-primaryColor" />
+              </span>
+              Long-term goal: In 2 years, I want to become a professional web
+              developer to contribute more to the company's development.
             </p>
             <div
               data-aos="fade-right"
@@ -64,7 +90,7 @@ const Hero = () => {
               className="flex items-center gap-7 mt-10"
             >
               <span className="text-smallTextColor text-[16px] font-[600]">
-                Follow me:
+                Follow me :
               </span>
               <span>
                 <a
