@@ -11,7 +11,7 @@ const Contact = () => {
         <h1
           data-aos="fade-down"
           data-aos-duration="1500"
-          className="text-gray-500 text-center tracking-[20px] text-[28px] md:text-[32px] font-[700] mb-8"
+          className="text-gray-500 text-center tracking-[20px] text-[28px] md:text-[32px] font-[700] mb-5 md:mb-8"
         >
           GET IN TOUCH
         </h1>
@@ -68,7 +68,7 @@ const Contact = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="1800"
-            className="w-full mt-5 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-bodyColor shadow-xl px-4 lg:px-8 py-8 rounded-lg"
+            className="w-full mt-5 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-bodyColor shadow-xl px-4 lg:px-8 py-4 selection:md:py-8 rounded-lg"
           >
             <form className="w-full">
               <h2 className="text-headingColor tracking-[2px] text-[22px] md:text-[28px] font-[600]">

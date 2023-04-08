@@ -19,12 +19,12 @@ const Hero = () => {
               data-aos-duration="1500"
               className="text-headingColor font-[600] text-[18px] tracking-[3px]"
             >
-              Welcome to Portfolio
+              Welcome to my Portfolio
             </h5>
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="text-headingColor tracking-[3px] font-[600] text-[28px] sm:text-[40px] leading-[40px] sm:leading-[46px] mt-5"
+              className="text-headingColor tracking-[3px] font-[600] text-[26px] sm:text-[40px] leading-[40px] sm:leading-[46px] mt-5"
             >
               I'm Tran Dinh Nhan <br />
               Frontend Developer
