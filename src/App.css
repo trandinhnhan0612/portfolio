@@ -48,13 +48,13 @@ section {
     display: none;
   }
   .menu ul {
-    width: 200px;
+    width: 270px;
     height: 100%;
     position: absolute;
     top: 0;
     right: 0;
     z-index: 200;
-    background: #0f172ab7;
+    background: #0f172a;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -62,5 +62,22 @@ section {
   }
   .show_menu {
     display: block;
+  }
+}
+.slider .slide_track {
+  display: flex;
+  min-width: 100%;
+  width: calc(360px * 9);
+  animation: scroll 20s linear infinite;
+  animation-direction: reverse;
+  animation-play-state: running;
+  animation-delay: 0s;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-360px * 4));
   }
 }
