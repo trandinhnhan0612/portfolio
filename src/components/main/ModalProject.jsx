@@ -16,10 +16,10 @@ const ModalProject = ({ closeModal, activeId }) => {
           </figure>
         </div>
         <div>
-          <h2 className="text-textModal font-[700] text-xl md:text-2xl my-3">
+          <h2 className="text-textModal font-[600] md:font-[700] text-[18px] md:text-2xl my-3">
             {project.title}
           </h2>
-          <p className="text-gray-400 font-[500] text-[13px] md:text-[15px] leading-7">
+          <p className="text-gray-400 font-[400] md:font-[500] text-[13px] md:text-[15px] leading-5 md:leading-7">
             {project.description}
           </p>
         </div>
@@ -38,7 +38,7 @@ const ModalProject = ({ closeModal, activeId }) => {
         </div>
         <button
           onClick={() => closeModal()}
-          className="text-white text-[26px] absolute top-6 right-6"
+          className="text-colorButton1 text-[26px] absolute top-6 right-6"
         >
           <FaRegTimesCircle />
         </button>

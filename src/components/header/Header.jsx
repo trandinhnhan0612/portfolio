@@ -43,14 +43,23 @@ const Header = () => {
     menuRef.current.classList.toggle("show_menu");
   };
   const [active, setActive] = useState(0);
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   const a = e.target.getAttribute("href");
+  //   const location = document.querySelector(a).offsetTop;
+  //   window.scrollTo({
+  //     top: location - 80,
+  //     left: 0,
+  //   });
+  // };
   return (
     <header
       ref={headerRef}
       className="w-full h-[80px] leading-[80px] flex items-center shadow-md"
     >
       <div className="container">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-[10px]">
+        <div className="flex justify-start md:flex items-center md:justify-between">
+          <div className="hidden md:flex items-center gap-[10px]">
             <span className="bg-white w-[35px] h-[35px] rounded-full flex items-center justify-center">
               <figure>
                 <img
@@ -70,11 +79,32 @@ const Header = () => {
             </div>
           </div>
           <div className="menu" ref={menuRef} onClick={toggleMenu}>
+            <div className="logo">
+              <div className="flex items-center gap-[10px] md:hidden">
+                <span className="bg-black w-[35px] h-[35px] rounded-full flex items-center justify-center">
+                  <figure>
+                    <img
+                      className="w-[26px] h-[26px] object-cover"
+                      src="/src/assets/images/logo.png"
+                      alt=""
+                    />
+                  </figure>
+                </span>
+                <div className="leading-[20px]">
+                  <h2 className="text-[16px] md:text-xl text-textModal font-[700]">
+                    Tran Dinh Nhan
+                  </h2>
+                  <p className="text-textModal text-[12px] md:text-[14px] font-[500]">
+                    Personal
+                  </p>
+                </div>
+              </div>
+            </div>
             <ul className="flex items-center gap-10">
               {menuLinks.map((item, index) => (
                 <li key={item.title}>
                   <a
-                    className={`font-[600] hover:border-b-2 hover:border-primaryColor hover:text-primaryColor ease-in duration-100 ${
+                    className={`font-[400] md:font-[600] hover:border-b-2 hover:border-primaryColor hover:text-primaryColor ease-in duration-100 ${
                       index === active &&
                       "border-b-2 border-primaryColor text-primaryColor "
                     }`}
@@ -88,15 +118,15 @@ const Header = () => {
             </ul>
           </div>
           <div className="flex items-center gap-4">
-            <button className="flex items-center text-[13px] md:text-[16px] gap-2 text-smallTextColor font-[600] max-h-[40px] rounded-lg px-2 py-2 border border-none bg-gradient-to-r from-colorButton1 to-colorButton2 hover:bg-gradient-to-l focus:ring-4 focus:outline-none">
-              <RiSendPlaneLine /> Let's talk
-            </button>
             <span
               onClick={toggleMenu}
               className="text-2xl text-smallTextColor cursor-pointer md:hidden"
             >
               <AiOutlineMenu />
             </span>
+            <button className="flex items-center text-[13px] md:text-[16px] gap-2 text-smallTextColor font-[600] max-h-[40px] rounded-lg px-2 py-2 border border-none bg-gradient-to-r from-colorButton1 to-colorButton2 hover:bg-gradient-to-l focus:ring-4 focus:outline-none">
+              <RiSendPlaneLine /> Let's talk
+            </button>
           </div>
         </div>
       </div>

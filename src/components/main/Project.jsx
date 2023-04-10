@@ -3,7 +3,7 @@ import data from "../../assets/data/projectData";
 import ModalProject from "./ModalProject";
 
 const Project = () => {
-  const [nextItems, setNextItems] = useState(6);
+  const [nextItems, setNextItems] = useState(3);
   const [showModal, setShowModal] = useState(false);
   const [activeId, setActiveId] = useState(null);
   const handleShowModal = (id) => {
@@ -25,7 +25,7 @@ const Project = () => {
             data-aos-duration="1500"
             className="text-gray-500 text-center tracking-[20px] font-[700] text-[28px] md:text-[32px]"
           >
-            MY PROJECT
+            MY PROJECTS
           </h3>
         </div>
         <div className="flex gap-4 items-center mt-8 flex-wrap">
@@ -39,7 +39,7 @@ const Project = () => {
             >
               <figure>
                 <img
-                  className="rounded-lg h-[243px] object-cover"
+                  className="rounded-lg w-[380px] h-[243px] object-cover"
                   src={projects.imgUrl}
                   alt=""
                 />
@@ -58,7 +58,7 @@ const Project = () => {
           ))}
         </div>
         <div className="text-center mt-7">
-          {nextItems < data.length && data.length > 6 && (
+          {nextItems < data.length && data.length > 3 && (
             <button
               onClick={handleLoadMore}
               className="text-smallTextColor bg-smallTextColor py-2 px-4 rounded-lg font-[500] border border-none bg-gradient-to-r from-colorButton1 to-colorButton2 hover:bg-gradient-to-l focus:ring-4 focus:outline-none"

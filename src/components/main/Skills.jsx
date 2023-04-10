@@ -4,19 +4,17 @@ import "../../App.css";
 const Skills = () => {
   return (
     <section id="skill">
-      <div className="p-3">
+      <div className="px-3">
         <h1
           data-aos="fade-down"
           data-aos-duration="1500"
-          className="text-gray-500 text-center tracking-[20px] text-[28px] md:text-[32px] font-[700]"
+          className="text-gray-500 text-center mb-8 tracking-[20px] text-[28px] md:text-[32px] font-[700]"
         >
           MY SKILLS
         </h1>
-        {/* <div className="slider w-full flex justify-center items-center flex-col mt-8"> */}
-        {/* <div className="wrraper flex items-center justify-center "> */}
-        <div className="slider overflow-hidden min-w-full bg-[#0f172a]">
-          <div className="slide_track">
-            <div className="flex justify-center items-center py-6 px-[34px] m-4 bg-[#161b22] max-w-[360px] rounded-2xl gap-x-3">
+        <div className="sliderToRight overflow-hidden bg-[#0f172a]">
+          <div className="slide_trackRight">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/frontend.jpeg" alt="" />
               </figure>
@@ -30,7 +28,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center py-6 px-[34px] m-4 bg-[#161b22] max-w-[360px] rounded-2xl gap-x-3">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/react.png" alt="" />
               </figure>
@@ -43,7 +41,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center py-6 px-[34px] m-4 bg-[#161b22] max-w-[360px] rounded-2xl gap-x-3">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/jquery.png" alt="" />
               </figure>
@@ -52,11 +50,11 @@ const Skills = () => {
                   JQUERY
                 </h5>
                 <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
-                  Basic knowledge about JQuery
+                  Fundamental knowledge about JQuery
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center py-6 px-[34px] m-4 bg-[#161b22] max-w-[360px] rounded-2xl gap-x-3">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/tailwind.png" alt="" />
               </figure>
@@ -69,7 +67,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center py-6 px-[34px] m-4 bg-[#161b22] max-w-[360px] rounded-2xl gap-x-3">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/frontend.jpeg" alt="" />
               </figure>
@@ -83,7 +81,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center py-6 px-[34px] m-4 bg-[#161b22] max-w-[360px] rounded-2xl gap-x-3">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/react.png" alt="" />
               </figure>
@@ -96,7 +94,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center py-6 px-[34px] m-4 bg-[#161b22] max-w-[360px] rounded-2xl gap-x-3">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/jquery.png" alt="" />
               </figure>
@@ -105,11 +103,11 @@ const Skills = () => {
                   JQUERY
                 </h5>
                 <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
-                  Basic knowledge about JQuery
+                  Fundamental knowledge about JQuery
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center py-6 px-[34px] m-4 bg-[#161b22] max-w-[360px] rounded-2xl gap-x-3">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
               <figure className="w-[50px] h-[50px]">
                 <img src="/src/assets/images/tailwind.png" alt="" />
               </figure>
@@ -124,8 +122,114 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        {/* </div> */}
-        {/* </div> */}
+        <div className="sliderToLeft overflow-hidden mt-3 bg-[#0f172a]">
+          <div className="slide_trackLeft">
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
+              <figure className="w-[50px] h-[50px]">
+                <img src="/src/assets/images/bootstrap.png" alt="" />
+              </figure>
+              <div>
+                <h5 className="text-smallTextColor text-[14px] md:text-[16px] font-[700]">
+                  BOOTSTRAP
+                </h5>
+                <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
+                  Fundamental knowledge about CSS library bootstrap
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
+              <figure className="w-[50px] h-[50px]">
+                <img src="/src/assets/images/material.png" alt="" />
+              </figure>
+              <div>
+                <h5 className="text-smallTextColor text-[14px] md:text-[16px] font-[700]">
+                  MATERIAL UI
+                </h5>
+                <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
+                  fFundamental knowledge about CSS library material ui
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
+              <figure className="w-[50px] h-[50px]">
+                <img src="/src/assets/images/styledCom.png" alt="" />
+              </figure>
+              <div>
+                <h5 className="text-smallTextColor text-[14px] md:text-[16px] font-[700]">
+                  STYLED-COMPONENTS
+                </h5>
+                <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
+                  Knowledge about CSS library styled-components
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
+              <figure className="w-[50px] h-[50px]">
+                <img src="/src/assets/images/responsive.png" alt="" />
+              </figure>
+              <div>
+                <h5 className="text-smallTextColor text-[14px] md:text-[16px] font-[700]">
+                  RESPONSIVE WEB DESIGN
+                </h5>
+                <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
+                  Fundamental knowledge about responsove web design
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
+              <figure className="w-[50px] h-[50px]">
+                <img src="/src/assets/images/bootstrap.png" alt="" />
+              </figure>
+              <div>
+                <h5 className="text-smallTextColor text-[14px] md:text-[16px] font-[700]">
+                  BOOTSTRAP
+                </h5>
+                <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
+                  Fundamental knowledge about CSS library bootstrap
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
+              <figure className="w-[50px] h-[50px]">
+                <img src="/src/assets/images/material.png" alt="" />
+              </figure>
+              <div>
+                <h5 className="text-smallTextColor text-[14px] md:text-[16px] font-[700]">
+                  MATERIAL UI
+                </h5>
+                <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
+                  Fundamental knowledge about CSS library material ui
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
+              <figure className="w-[50px] h-[50px]">
+                <img src="/src/assets/images/styledCom.png" alt="" />
+              </figure>
+              <div>
+                <h5 className="text-smallTextColor text-[14px] md:text-[16px] font-[700]">
+                  STYLED-COMPONENTS
+                </h5>
+                <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
+                  Knowledge about CSS library styled-components
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center items-center py-4 px-5 m-4 bg-[#161b22] h-[110px] w-[300px] md:w-[360px] rounded-2xl gap-x-3">
+              <figure className="w-[50px] h-[50px]">
+                <img src="/src/assets/images/responsive.png" alt="" />
+              </figure>
+              <div>
+                <h5 className="text-smallTextColor text-[14px] md:text-[16px] font-[700]">
+                  RESPONSIVE WEB DESIGN
+                </h5>
+                <p className="text-gray-400 text-[13px] md:text-[15px] font-[400]">
+                  Fundamental knowledge about responsove web design
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
