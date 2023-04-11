@@ -1,5 +1,4 @@
 import React from "react";
-import heroImg from "../../assets/images/hero.svg";
 import {
   AiOutlineMail,
   AiOutlineLinkedin,
@@ -94,7 +93,9 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#linkedin"
+                  href="https://www.linkedin.com/in/tr%E1%BA%A7n-%C4%91%C3%ACnh-nh%C3%A2n-82ba48255/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-500 text-[20px] font-[600] hover:text-hoverIconColor"
                 >
                   <AiOutlineLinkedin />
@@ -102,7 +103,9 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#github"
+                  href="https://github.com/trandinhnhan0612"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-500 text-[20px] font-[600] hover:text-hoverIconColor"
                 >
                   <AiFillGithub />
@@ -110,7 +113,9 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#facebook"
+                  href="https://www.facebook.com/dinhnhandevfe"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-500 text-[20px] font-[600] hover:text-hoverIconColor"
                 >
                   <AiOutlineFacebook />
@@ -118,9 +123,17 @@ const Hero = () => {
               </span>
             </div>
           </div>
-          <div className="basis-1/3 mt-10 sm:mt-0">
-            <figure className="flex items-center justify-center">
-              <img src={heroImg} alt="" />
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            className="mt-10 sm:mt-0 bg-gray-400 p-4 bg-opacity-10 rounded-full max-w-[450px] max-h-[450px] flex items-center justify-center shadow-[0_0_20px] shadow-[#e9ecef69]"
+          >
+            <figure>
+              <img
+                className="w-[450px] h-[420px] rounded-full object-cover"
+                src="/src/assets/images/avatar.jpg"
+                alt=""
+              />
             </figure>
           </div>
         </div>

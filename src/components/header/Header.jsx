@@ -61,13 +61,15 @@ const Header = () => {
         <div className="flex justify-start md:flex items-center md:justify-between">
           <div className="hidden md:flex items-center gap-[10px]">
             <span className="bg-white w-[35px] h-[35px] rounded-full flex items-center justify-center">
-              <figure>
-                <img
-                  className="w-[26px] h-[26px] object-cover"
-                  src="/src/assets/images/logo.png"
-                  alt=""
-                />
-              </figure>
+              <a href="#">
+                <figure>
+                  <img
+                    className="w-[26px] h-[26px] object-cover"
+                    src="/src/assets/images/logo.png"
+                    alt=""
+                  />
+                </figure>
+              </a>
             </span>
             <div className="leading-[20px]">
               <h2 className="text-[16px] md:text-xl text-smallTextColor font-[700]">
@@ -124,9 +126,11 @@ const Header = () => {
             >
               <AiOutlineMenu />
             </span>
-            <button className="flex items-center text-[13px] md:text-[16px] gap-2 text-smallTextColor font-[600] max-h-[40px] rounded-lg px-2 py-2 border border-none bg-gradient-to-r from-colorButton1 to-colorButton2 hover:bg-gradient-to-l focus:ring-4 focus:outline-none">
-              <RiSendPlaneLine /> Let's talk
-            </button>
+            <a href="#contact">
+              <button className="flex items-center text-[13px] md:text-[16px] gap-2 text-smallTextColor font-[600] max-h-[40px] rounded-lg px-2 py-2 border border-none bg-gradient-to-r from-colorButton1 to-colorButton2 hover:bg-gradient-to-l focus:ring-4 focus:outline-none">
+                <RiSendPlaneLine /> Let's talk
+              </button>
+            </a>
           </div>
         </div>
       </div>
