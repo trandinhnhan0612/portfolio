@@ -19,7 +19,7 @@ const ModalProject = ({ closeModal, activeId }) => {
           <h2 className="text-textModal font-[600] md:font-[700] text-[18px] md:text-2xl my-3">
             {project.title}
           </h2>
-          <p className="text-gray-400 font-[400] md:font-[500] text-[13px] md:text-[15px] leading-5 md:leading-7">
+          <p className="text-gray-500 font-[400] text-[13px] md:text-[15px] leading-5 md:leading-7">
             {project.description}
           </p>
         </div>

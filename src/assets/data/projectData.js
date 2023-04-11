@@ -7,10 +7,19 @@ const projects = [
     id: "01",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Electronic Medical Record Management Website",
+    title: "Electronic Medical Records Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "Electronic medical records management software of family doctor clinic. Personal information, information about medical history, history, clinical and subclinical symptoms, treatment methods, current patient status... are digitized to help the medical examination process become more scientific and manageable. comprehensive management of an individual's health.",
+    technologies: [
+      "Html/Css/Javascript",
+      "C#",
+      ".Net Framework",
+      "Mssql",
+      "JQuery",
+      "Ajax",
+      "Bootstrap5",
+      "MVC",
+    ],
     siteUrl: "#",
   },
   {
@@ -19,8 +28,16 @@ const projects = [
     category: "Web Design",
     title: "Frequently Asked Question Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "The website answers questions from students of the IT faculty, allocating topics and questions appropriately to help the Dean of the Faculty easily manage and increase work efficiency.",
+    technologies: [
+      "Html/Css/Javascript",
+      "C#",
+      ".Net Framework",
+      "Mssql",
+      "JQuery",
+      "Bootstrap5",
+      "MVC",
+    ],
     siteUrl: "#",
   },
   {
@@ -30,7 +47,14 @@ const projects = [
     title: "Your Blogger Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Styled-Component", "JQuery"],
+    technologies: [
+      "Reactjs",
+      "Tailwind css",
+      "Styled-Component",
+      "JQuery",
+      "Html/Css(scss)/Javascript",
+      "Firebase",
+    ],
     siteUrl: "#",
   },
 ];

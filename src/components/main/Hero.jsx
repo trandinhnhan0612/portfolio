@@ -131,7 +131,7 @@ const Hero = () => {
             <figure>
               <img
                 className="w-[450px] h-[420px] rounded-full object-cover"
-                src="/src/assets/images/avatar.jpg"
+                src="/src/assets/images/avatar1.jpg"
                 alt=""
               />
             </figure>
